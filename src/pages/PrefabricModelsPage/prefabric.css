@@ -1,0 +1,29 @@
+/* Ataş Çelik Yapı — Prefabric Models Page Specific Styles */
+
+.prefabric-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.prefabric-section {
+  padding: var(--space-16) 0;
+}
+
+@media (min-width: 1024px) {
+  .prefabric-section {
+    padding: var(--space-20) 0;
+  }
+}
+
+.prefabric-section-alt {
+  background-color: #F0F3F8;
+}
+
+.prefabric-empty-state {
+  text-align: center;
+  padding: var(--space-16) 0;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-muted);
+}

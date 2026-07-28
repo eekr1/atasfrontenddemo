@@ -1,0 +1,67 @@
+/* Ataş Çelik Yapı — CSS Tokens */
+:root {
+  /* Marka renkleri */
+  --color-primary:       #1A3E6E;  /* Ana mavi — header, butonlar */
+  --color-primary-dark:  #122D52;  /* Koyu mavi — hover durumları */
+  --color-primary-light: #2B5FA8;  /* Açık mavi — accent, link */
+  --color-accent:        #E8A020;  /* Altın sarı — vurgu, badge */
+
+  /* Nötr renkler */
+  --color-white:         #FFFFFF;
+  --color-bg:            #F7F8FA;  /* Sayfa arka planı */
+  --color-surface:       #FFFFFF;  /* Kart arka planı */
+  --color-border:        #E2E6ED;  /* Kenarlıklar */
+  --color-text:          #1A1F2E;  /* Ana metin */
+  --color-text-muted:    #6B7280;  /* İkincil metin */
+  --color-text-light:    #9CA3AF;  /* Üçüncül metin, placeholder */
+
+  /* Durum renkleri */
+  --color-success:       #16A34A;  /* Tamamlandı badge */
+  --color-info:          #2563EB;  /* Devam Ediyor badge */
+
+  /* Tipografi */
+  --font-heading:        'Plus Jakarta Sans', sans-serif;
+  --font-body:           'Inter', sans-serif;
+
+  /* Tipografi Ölçeği */
+  --text-xs:             12px;
+  --text-sm:             14px;
+  --text-base:           16px;
+  --text-lg:             18px;
+  --text-xl:             20px;
+  --text-2xl:            24px;
+  --text-3xl:            30px;
+  --text-4xl:            36px;
+  --text-5xl:            48px;
+  --text-6xl:            60px;
+
+  /* Spacing Sistemi (4px tabanlı) */
+  --space-1:             4px;
+  --space-2:             8px;
+  --space-3:             12px;
+  --space-4:             16px;
+  --space-5:             20px;
+  --space-6:             24px;
+  --space-8:             32px;
+  --space-10:            40px;
+  --space-12:            48px;
+  --space-16:            64px;
+  --space-20:            80px;
+  --space-24:            96px;
+
+  /* Gölge Kümesi */
+  --shadow-sm:           0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md:           0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg:           0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-header:       0 4px 20px rgba(26, 62, 110, 0.08);
+
+  /* Border Radius */
+  --radius-sm:           4px;
+  --radius-md:           8px;
+  --radius-lg:           12px;
+  --radius-full:         9999px;
+
+  /* Animasyon ve Geçişler */
+  --transition-fast:     0.2s ease;
+  --transition-normal:   0.3s ease;
+}
